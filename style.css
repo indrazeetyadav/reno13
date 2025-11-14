@@ -1,0 +1,21 @@
+#box1{
+    background-color: lightblue;
+    border-radius:5px solid blue;
+    color:blue;
+    font-size: large;
+    font-family: Arial;
+}
+#box2{
+    background-color: beige;
+    border-radius:5px;
+    color:green;
+    font-size: large;
+    font-family: Arial;
+}
+#box3{
+    background-color: beige;
+    border-radius:5px;
+    color:brown;
+    font-size: large;
+    font-family: Arial;
+}
