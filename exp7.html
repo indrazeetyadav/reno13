@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Navigation Menu</title>
+    <style>
+      body {
+        font-family: "Times New Roman";
+        margin: 50px;
+        background: #f9f9f9;
+        border: 2px solid black;
+        border-radius: 25px;
+        padding: 40px;
+      }
+      header {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .inline-block-menu ul,
+      .float-menu ul {
+        list-style: none;
+        margin-bottom: 30px;
+      }
+
+      .inline-block-menu li {
+        display: inline-block;
+        background: #ffffff;
+        border: 2px solid #000;
+        border-radius: 12px;
+        padding: 10px 16px;
+        margin: 5px;
+      }
+
+      .float-menu li {
+        float: left;
+        background: #ffffff;
+        border: 2px solid #000;
+        border-radius: 12px;
+        padding: 10px 16px;
+        margin: 5px;
+      }
+
+      .inline-block-menu a,
+      .float-menu a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        display: block;
+      }
+      .clear {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Website Navigation</header>
+    <nav class="inline-block-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <nav class="float-menu">
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+      <div class="clear"></div>
+    </nav>
+  </body>
+</html>

@@ -5,49 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display property</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+       body{
+    font-family: 'Times New Roman';
+    margin: 50px;background: #f9f9f9;
+    border: 2px solid black; border-radius:25px; padding:40px;
         }
         .header {
-            height: 50px;
-            width: 100%;
-            background-color: rgb(0, 166, 255);
-            margin: 2px;
-           
+            height: 60px;
+            width: 500px;
+            background-color: rgb(6, 133, 217);
+            margin: 5px;
+            border-radius: 10px; 
         }
         div h2{
             color:rgb(255, 255, 255);
-            font-size: 30px;
-            font-family: sans-serif;
+            font-size: 40px;
+            font-family: 'Arial Black';
             line-height: 50px;
             text-align: center;
         }
-        .main{
-            height: 150px;
-            width: 100%;
-            background-color: rgb(196, 241, 255);
+        div h2.s{
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+            font-family: 'Arial Black';
+            line-height: 70px;
+            text-align: center;
         }
-        .yes{
-            height: 200px;
-            width: 100%;
-            background-color: seagreen;
+        .main{
+            height: 520px;
+            width: 350px;
+            background-color: rgb(192, 210, 195);
+            margin: 5px;
+            border-radius: 15px;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h2> Online Shopping</h2>
-    </div>
-    <center><div class="main">
-        <img src="https://substackcdn.com/image/fetch/$s_!G1lk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ed3d547-94ff-48e1-9f20-8c14a7030a02_2000x2000.jpeg" alt="logo" height="150px" width="150px">
+   <center><div class="header">
+        <h2>Reebok</h2>
     </div></center>
-    <center><div class="yes">
-    <h2>Logo</h2>
-    <p>This is logo of apple</p>
-    <span>₹99,000</span><br>
-    <input type="button" value="Add to cart" style="background-color: rgb(127, 255, 242); "></center>
+    <center><div class="main">
+        <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/33173482/2025/4/1/a35c3ec2-0cdc-4acc-8981-6c792ac518d01743509904961-Reebok-Men-Sports-Shoes-4081743509904674-1.jpg" 
+        alt="logo" height="400px" width="auto" style="border-radius: 10px;">
+        <h3 class="s">Sports Shoes</h3>
+        <p>Get the brand new Shoes</p>
+        <span>for just <span style="color: rgb(52, 115, 50);">₹2499</span></span><br>
+        <input type="button" value="Add to cart"
+       style="padding: 6px 100px; font-size: 18px; border-radius: 10px; background-color: rgb(6, 133, 217);">
+    </div></center>
     </div>
 </body>
 </html>
